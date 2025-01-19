@@ -1,6 +1,6 @@
-# Smart Flask / Thermos with Round Display and ESP32-C3
+# Smart Flask / Thermos with ESP32 1.28-inch Round Display and ESP32-C3
  
-# 5.79" ePaper Display dashboard
+
 
 This is a project which is essantially placing a round display on a vacuum flask. it measures the temperature using a thermistor, and shows it on the screen. Also you can see the measurement values by connecting via bluetooth.
 ![Preview](preview.jpg?raw=true "preview")
