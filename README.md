@@ -2,7 +2,7 @@
  
 
 
-This is a project which is essantially placing a round display on a vacuum flask. it measures the temperature using a thermistor, and shows it on the screen. Also you can see the measurement values by connecting via bluetooth.
+This is a project which is essantially placing a round display on a vacuum flask. It measures the temperature using a thermistor, and shows it on the screen. Also you can see the measurement values by connecting via bluetooth.
 ![Preview](preview.jpg?raw=true "preview")
 
 ## Hardware
