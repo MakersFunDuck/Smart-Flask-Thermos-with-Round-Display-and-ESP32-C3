@@ -1,0 +1,243 @@
+{
+  "guid": "GUID75876073-692683S481417",
+  "deepid": 701136386,
+  "dont_export": false,
+  "locked": false,
+  "properties": [
+    {
+      "nid": 10,
+      "strtype": "OBJECT/Name",
+      "strval": "Button1",
+      "InheritedType": 10
+    },
+    {
+      "nid": 20,
+      "strtype": "OBJECT/Layout",
+      "InheritedType": 1
+    },
+    {
+      "Flow": 0,
+      "Wrap": false,
+      "Reversed": false,
+      "MainAlignment": 0,
+      "CrossAlignment": 0,
+      "TrackAlignment": 0,
+      "LayoutType": 0,
+      "nid": 30,
+      "strtype": "OBJECT/Layout_type",
+      "strval": "No_layout",
+      "InheritedType": 13
+    },
+    {
+      "nid": 40,
+      "strtype": "OBJECT/Transform",
+      "InheritedType": 1
+    },
+    {
+      "nid": 50,
+      "flags": 17,
+      "strtype": "OBJECT/Position",
+      "intarray": [
+        0,
+        0
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 60,
+      "flags": 17,
+      "strtype": "OBJECT/Size",
+      "intarray": [
+        144,
+        144
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 70,
+      "strtype": "OBJECT/Align",
+      "strval": "CENTER",
+      "InheritedType": 3
+    },
+    {
+      "nid": 90,
+      "strtype": "OBJECT/Flags",
+      "InheritedType": 1
+    },
+    {
+      "nid": 230,
+      "strtype": "OBJECT/Scrollable",
+      "strval": "False",
+      "InheritedType": 2
+    },
+    {
+      "nid": 260,
+      "strtype": "OBJECT/Scroll_on_focus",
+      "strval": "True",
+      "InheritedType": 2
+    },
+    {
+      "nid": 300,
+      "strtype": "OBJECT/Scrollbar_mode",
+      "strval": "AUTO",
+      "InheritedType": 3
+    },
+    {
+      "nid": 310,
+      "strtype": "OBJECT/Scroll_direction",
+      "strval": "ALL",
+      "InheritedType": 3
+    },
+    {
+      "nid": 320,
+      "strtype": "OBJECT/States",
+      "InheritedType": 1
+    },
+    {
+      "part": "lv.PART.MAIN",
+      "childs": [
+        {
+          "nid": 10000,
+          "strtype": "_style/StyleState",
+          "strval": "DEFAULT",
+          "childs": [
+            {
+              "nid": 10510,
+              "strtype": "_style/Bg_Radius",
+              "integer": 90,
+              "InheritedType": 6
+            },
+            {
+              "nid": 10520,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                12,
+                12,
+                30,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10530,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                25,
+                28,
+                38
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10550,
+              "strtype": "_style/Gradient direction",
+              "strval": "VER",
+              "InheritedType": 3
+            },
+            {
+              "nid": 10410,
+              "strtype": "_style/Text_Color",
+              "intarray": [
+                252,
+                243,
+                243,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10430,
+              "strtype": "_style/Text_Align",
+              "strval": "CENTER",
+              "InheritedType": 3
+            },
+            {
+              "nid": 10450,
+              "strtype": "_style/Text_Font",
+              "strval": "monoton92numbers",
+              "InheritedType": 3
+            }
+          ],
+          "InheritedType": 1
+        }
+      ],
+      "nid": 1010,
+      "strtype": "BUTTON/Style_main",
+      "strval": "lv.PART.MAIN, Rectangle, Pad, Text, Transform",
+      "InheritedType": 11
+    },
+    {
+      "disabled": false,
+      "nid": 1000745,
+      "strtype": "_event/EventHandler",
+      "strval": "CLICKED",
+      "childs": [
+        {
+          "nid": 1000746,
+          "strtype": "_event/name",
+          "strval": "Event1",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1000747,
+          "strtype": "_event/condition_C",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1000748,
+          "strtype": "_event/condition_P",
+          "strval": "",
+          "InheritedType": 10
+        },
+        {
+          "nid": 1000749,
+          "strtype": "_event/action",
+          "strval": "SET TEXT VALUE WHEN CHECKED",
+          "childs": [
+            {
+              "nid": 1000750,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/Name",
+              "strval": "SET TEXT VALUE FROM CHECKED",
+              "InheritedType": 10
+            },
+            {
+              "nid": 1000751,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/Call",
+              "strval": "SetTextValueChecked( <{Target}>, event_struct.get_target(), \"<{On_text}>\", \"<{Off_text}>\")",
+              "InheritedType": 10
+            },
+            {
+              "nid": 1000752,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/CallC",
+              "strval": "_ui_checked_set_text_value( <{Target}>, target, \"<{On_text}>\", \"<{Off_text}>\");",
+              "InheritedType": 10
+            },
+            {
+              "nid": 1000753,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/Target",
+              "strval": "GUID17677655-653566S833412",
+              "InheritedType": 9
+            },
+            {
+              "nid": 1000754,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/On_text",
+              "strval": "100",
+              "InheritedType": 10
+            },
+            {
+              "nid": 1000755,
+              "strtype": "SET TEXT VALUE WHEN CHECKED/Off_text",
+              "strval": "",
+              "InheritedType": 10
+            }
+          ],
+          "InheritedType": 10
+        }
+      ],
+      "InheritedType": 4
+    }
+  ],
+  "saved_objtypeKey": "BUTTON",
+  "tree_closed": true
+}

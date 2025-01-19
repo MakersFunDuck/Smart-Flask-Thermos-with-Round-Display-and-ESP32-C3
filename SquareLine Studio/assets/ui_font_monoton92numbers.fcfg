@@ -1,0 +1,16 @@
+{
+  "codename": "monoton92numbers",
+  "ttf_path": "/assets/Monoton-Regular.ttf",
+  "bin_path": "/assets\\ui_font_monoton92numbers.bin",
+  "c_path": "/assets\\ui_font_monoton92numbers.c",
+  "cfg_path": "/assets\\ui_font_monoton92numbers.fcfg",
+  "size": 90,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x30-0x39"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}
