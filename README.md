@@ -10,7 +10,6 @@ This is a project which is essantially placing a round display on a vacuum flask
 - **CrowPanel -ESP32 Display-1.28(R) inch  Capacitive Touch SPI Screen**
   - Resolution: 240*240 Round IPS Display
   - Color: 16 bit
-  - CST816D driver
   - Powered by an ESP32-C3
 
 
